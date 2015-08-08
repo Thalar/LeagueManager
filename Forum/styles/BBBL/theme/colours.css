@@ -66,6 +66,8 @@ hr {
 	background-color: transparent;
 	background-image: url("./images/fond_black_transp.png");
 	background-repeat: repeat;
+	border-radius: 10px;
+  padding: 0px 10px 10px 10px;
 }
 
 .panel {
@@ -82,19 +84,19 @@ hr {
 }
 
 .bg1 {
-	background-color: #ECF3F7;
+	background-color: #E6EAED;
 }
 
 table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
-	background-color: #ECF3F7;
+	background-color: #E6EAED;
 }
 
 .bg2 {
-	background-color: #e1ebf2;
+	background-color: #D1D6DA;
 }
 
 table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
-	background-color: #e1ebf2;
+	background-color: #D1D6DA;
 }
 
 .bg3	{
@@ -609,7 +611,7 @@ Colours and backgrounds for buttons.css
 .button {
 
 	border-color: #C7C3BF;
-	background-color: #FFFFFF;
+	background-color: #000000;
 	background-image: -moz-linear-gradient(top, #FFFFFF, #E9E9E9);
 	background-image: -webkit-linear-gradient(top, #FFFFFF, #E9E9E9);
 	background-image: -o-linear-gradient(top, #FFFFFF, #E9E9E9);
@@ -634,6 +636,7 @@ Colours and backgrounds for buttons.css
 	background-image: linear-gradient(to bottom, #E9E9E9, #FFFFFF);
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#E9E9E9', EndColorStr='#FFFFFF')";
 	text-shadow: 1px 1px 0 #FFFFFF, -1px -1px 0 #FFFFFF, -1px -1px 0 rgba(188, 42, 77, 0.2);
+	color:#000000;
 
 }button
 

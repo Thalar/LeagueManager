@@ -1,5 +1,9 @@
 /* Button Styles
 ---------------------------------------- */
+#quickmod {
+	background-color:#000000;
+}
+
 
 .button {
 	cursor: pointer;
@@ -20,7 +24,30 @@
 }
 
 .buttons .button {
-	height: 35px;	
+	background-image: url("./images/fond_button.png");
+	background-repeat: no-repeat;
+	height: 35px;
+	width: 156px;
+	background-color: transparent;
+	border: 0;
+	box-shadow: none;
+	font-size: 20px;
+	padding-left: 10px;
+	text-shadow: 1px 1px 0px #FFF, -1px -1px 0px #000000, -1px -1px 0px rgba(188, 42, 77, 0.2);
+}
+
+.buttons .button:hover {
+	background-image: url("./images/fond_button_over.png");
+	background-repeat: no-repeat;
+	height: 35px;
+	width: 156px;
+	background-color: transparent;
+	border: 0;
+	box-shadow: none;
+	font-size: 20px;
+	padding-left: 10px;
+	color:#FF6A00;
+	text-shadow: 1px 1px 0px #FFF, -1px -1px 0px #000000, -1px -1px 0px rgba(188, 42, 77, 0.2);
 }
 
 .dropdown-select {
