@@ -57,12 +57,12 @@ hr {
 
 .forabg {
 	background-color: transparent;
-	background-image: url("./images/bg_list.gif");
+	background-image: none;
 }
 
 .forabg .inner{
 	background-color: transparent;
-	background-image: url("./images/Fond_black_transp.png");
+	background-image: url("./images/fond_black_transp.png");
 }
 
 span.corners-top {
