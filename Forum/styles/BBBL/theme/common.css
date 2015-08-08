@@ -245,33 +245,7 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
 }
 .forabg .inner{
     background-repeat: repeat;
-}
-
-span.corners-bottom, span.corners-bottom span, span.corners-top, span.corners-top span {
-    background-repeat: no-repeat;
-    display: block;
-    font-size: 1px;
-    height: 5px;
-    line-height: 1px;
-}
-
-span.corners-top {
-  background-position: 0px 0px;
-  margin: 0px -5px;
-}
-
-span.corners-top span {
-    background-position: 100% 0px;
-}
-
-span.corners-bottom {
-  background-position: 0px 100%;
-  clear: both;
-  margin: 0px -5px;
-}
-
-span.corners-bottom span {
-    background-position: 100% 100%;
+		border-radius: 10px;
 }
 
 .forumbg {
