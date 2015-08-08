@@ -77,6 +77,11 @@ h2 {
 	font-weight: normal;
 	font-size: 2em;
 	margin: 0.8em 0 0.2em 0;
+	border:0;
+}
+
+.topic-title {
+	border:0;
 }
 
 h2.solo {
@@ -821,6 +826,7 @@ fieldset.fields1 dl.pmlist dd.recipients {
 .action-bar {
 	font-size: 11px;
 	margin: 4px 0;
+	color:#FFFFFF;
 }
 
 .forabg + .action-bar {

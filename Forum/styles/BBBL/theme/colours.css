@@ -48,8 +48,7 @@ h3 {
 }
 
 hr {
-	border-color: #FFFFFF;
-	border-top-color: #CCCCCC;
+	border: 0;
 }
 
 /* Search box
@@ -149,7 +148,7 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 ----------------------------------------*/
 
 ul.navlinks {
-	border-top-color: #FFFFFF;
+	border:0;
 }
 
 /* Table styles
@@ -172,7 +171,7 @@ table.table1 td {
 }
 
 table.table1 tbody td {
-	border-top-color: #FAFAFA;
+	border: 0;
 }
 
 table.table1 tbody th {
@@ -443,12 +442,12 @@ dl.faq dt {
 
 /* Post signature */
 .signature {
-	border-top-color: #CCCCCC;
+	border: 0;
 }
 
 /* Post noticies */
 .notice {
-	border-top-color:  #CCCCCC;
+	border:  0;
 }
 
 /* BB Code styles
@@ -507,7 +506,7 @@ blockquote blockquote blockquote {
 }
 
 .attachbox dd {
-	border-top-color: #C9D2D8;
+	border: 0;
 }
 
 .attachbox p {
@@ -549,7 +548,7 @@ dl.thumbnail dt a:hover img {
 ----------------------------------------*/
 
 fieldset.polls dl {
-	border-top-color: #DCDEE2;
+	border: 0;
 	color: #666666;
 }
 
@@ -788,11 +787,11 @@ Colours and backgrounds for cp.css
 
 .panel-container .panel li.row {
 	border-bottom-color: #B5C1CB;
-	border-top-color: #F9F9F9;
+	border: 0;
 }
 
 ul.cplist {
-	border-top-color: #B5C1CB;
+	border: 0;
 }
 
 .panel-container .panel li.header dd, .panel-container .panel li.header dt {
@@ -1134,7 +1133,7 @@ input.disabled {
 }
 
 .dropdown-extended ul li {
-	border-top-color: #B9B9B9;
+	border: 0;
 }
 
 .dropdown-extended ul li:hover {
@@ -1148,8 +1147,7 @@ input.disabled {
 }
 
 .dropdown-extended .footer {
-	border-top-style: solid;
-	border-top-width: 1px;
+	border: 0;
 }
 
 .dropdown-extended .header {
