@@ -2,6 +2,33 @@
 --------------------------------------------------------------
 Colours and backgrounds for common.css
 -------------------------------------------------------------- */
+.p {
+color: #545454;
+}
+
+p.author{
+color: #545454;
+}
+
+a.mark {
+	color: #FFFFFF;
+}
+
+.pagination a {
+		color: #FFFFFF;
+}
+
+fieldset.display-options label {
+    color: #FFFFFF;
+}
+
+a.arrow-left {
+    color: #FFFFFF;
+}
+
+#quickmod {
+		background-color: transparent;
+}
 
 html, body {
 	color: #536482;
@@ -17,8 +44,7 @@ h2 {
 }
 
 h3 {
-	border-bottom-color: #CCCCCC;
-	color: #115098;
+	color: #FFFFFF;
 }
 
 hr {
@@ -50,7 +76,14 @@ hr {
 }
 
 .navbar {
-	background-color: #cadceb;
+	background-color: transparent;
+	background-image: url("./images/fond_black_transp.png");
+	border-radius:10px;
+	color:#E6EAED;
+}
+
+.navbar a{
+	color: #E6EAED;
 }
 
 .forabg {
@@ -94,6 +127,7 @@ table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
 .bg2 {
 	background-color: #D1D6DA;
 }
+
 
 table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 	background-color: #D1D6DA;
@@ -611,7 +645,7 @@ Colours and backgrounds for buttons.css
 .button {
 
 	border-color: #C7C3BF;
-	background-color: #000000;
+	background-color: transparent;
 	background-image: -moz-linear-gradient(top, #FFFFFF, #E9E9E9);
 	background-image: -webkit-linear-gradient(top, #FFFFFF, #E9E9E9);
 	background-image: -o-linear-gradient(top, #FFFFFF, #E9E9E9);
