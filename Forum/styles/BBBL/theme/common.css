@@ -244,6 +244,37 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
 	border-radius: 7px;
 }
 
+span.corners-bottom, span.corners-bottom span, span.corners-top, span.corners-top span {
+    background-repeat: no-repeat;
+    display: block;
+    font-size: 1px;
+    height: 5px;
+    line-height: 1px;
+}
+
+span.corners-top {
+  background-image: url("http://illiweb.com/fa/empty.gif");
+  background-position: 0px 0px;
+  margin: 0px -5px;
+}
+
+span.corners-top span {
+    background-image: url("http://illiweb.com/fa/empty.gif");
+    background-position: 100% 0px;
+}
+
+span.corners-bottom {
+  background-image: url("http://illiweb.com/fa/empty.gif");
+  background-position: 0px 100%;
+  clear: both;
+  margin: 0px -5px;
+}
+
+span.corners-bottom span {
+    background-image: url("http://illiweb.com/fa/empty.gif");
+    background-position: 100% 100%;
+}
+
 .forumbg {
 	background: transparent none repeat-x 0 0;
 	margin-bottom: 4px;
