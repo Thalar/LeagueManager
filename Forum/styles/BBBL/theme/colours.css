@@ -46,8 +46,6 @@ hr {
 }
 
 .headerbar {
-	background-color: #12A3EB;
-	background-image: url("./images/bg_header.gif");
 	color: #FFFFFF;
 }
 
@@ -248,8 +246,8 @@ p.post-notice.reported:before, p.post-notice.error:before {
 Colours and backgrounds for links.css
 -------------------------------------------------------------- */
 
-a { color: #105289; }
-a:hover	{ color: #D31141; }
+a { color: #000000; }
+a:hover	{ color: #FB7728; }
 
 /* Links on gradient backgrounds */
 .forumbg .header a, .forabg .header a, th a {
@@ -257,7 +255,7 @@ a:hover	{ color: #D31141; }
 }
 
 .forumbg .header a:hover, .forabg .header a:hover, th a:hover {
-	color: #A8D8FF;
+	color: #FB7728;
 }
 
 /* Notification mark read link */
@@ -322,16 +320,23 @@ ul.forums {
 	background-image: url("./images/gradient.gif");
 }
 
+.haut_cat {
+	background-image: url("./images/fond_cat.png");
+  background-repeat:no-repeat;
+}
+
+.milieu_cat {
+border-radius: 5px;
+}
+
 ul.topiclist li {
-	color: #4C5D77;
+	color: #000000;
 }
 
 ul.topiclist dd {
-	border-left-color: #FFFFFF;
 }
 
 .rtl ul.topiclist dd {
-	border-right-color: #fff;
 	border-left-color: transparent;
 }
 
@@ -344,8 +349,8 @@ ul.topiclist li.row dt a.subforum.unread {
 }
 
 li.row {
-	border-top-color:  #FFFFFF;
-	border-bottom-color: #00608F;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
 }
 
 li.row strong {
@@ -353,15 +358,15 @@ li.row strong {
 }
 
 li.row:hover {
-	background-color: #F6F4D0;
+		background-repeat:no-repeat;
 }
 
 li.row:hover dd {
-	border-left-color: #CCCCCC;
+
 }
 
 .rtl li.row:hover dd {
-	border-right-color: #CCCCCC;
+
 	border-left-color: transparent;
 }
 

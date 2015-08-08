@@ -1,6 +1,6 @@
 /* Content Styles
 ---------------------------------------- */
- 
+
 ul.topiclist {
 	display: block;
 	list-style-type: none;
@@ -15,6 +15,13 @@ ul.topiclist li {
 	display: block;
 	list-style-type: none;
 	margin: 0;
+  padding-top:5px;
+}
+
+ul.topiclist .header {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 90px;
 }
 
 ul.topiclist dl {
@@ -155,7 +162,7 @@ dl.icon dt {
 }
 
 dl.icon dt .list-inner {
-	padding-left: 45px;					/* Space for folder icon */
+	padding-left: 55px;					/* Space for folder icon */
 }
 
 dl.icon dt, dl.icon dd {

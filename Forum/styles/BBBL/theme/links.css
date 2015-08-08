@@ -8,7 +8,7 @@ a {
 	text-decoration: none;
 }
 
-a:hover	{ text-decoration: underline; }
+a:hover	{  }
 
 /* Coloured usernames */
 .username-coloured {
@@ -23,7 +23,7 @@ a:hover	{ text-decoration: underline; }
 }
 
 .forumbg .header a:hover, .forabg .header a:hover, th a:hover {
-	text-decoration: underline;
+
 }
 
 /* Navigation bar links */
@@ -67,7 +67,7 @@ a.forumtitle {
 }
 
 a.forumtitle:hover {
-	text-decoration: underline;
+
 }
 
 a.topictitle {
@@ -78,7 +78,7 @@ a.topictitle {
 }
 
 a.topictitle:hover {
-	text-decoration: underline;
+
 }
 
 a.lastsubject {
@@ -87,7 +87,7 @@ a.lastsubject {
 }
 
 a.lastsubject:hover {
-	text-decoration: underline;
+
 }
 
 /* Post body links */
@@ -103,7 +103,7 @@ a.lastsubject:hover {
 
 .signature a, .signature a:hover {
 	border: none;
-	text-decoration: underline;
+
 }
 
 /* Profile links */
@@ -113,7 +113,7 @@ a.lastsubject:hover {
 }
 
 .postprofile a:hover, .postprofile dt.author a:hover {
-	text-decoration: underline;
+
 }
 
 /* Profile searchresults */
@@ -123,7 +123,7 @@ a.lastsubject:hover {
 }
 
 .search .postprofile a:hover {
-	text-decoration: underline;
+
 }
 
 /* Back to top of page */
