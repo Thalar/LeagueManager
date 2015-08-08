@@ -56,13 +56,38 @@ hr {
 }
 
 .forabg {
-	background-color: #0076b1;
+	background-color: transparent;
 	background-image: url("./images/bg_list.gif");
+}
+
+.forabg .inner{
+	background-color: transparent;
+	background-image: url("./images/Fond_black_transp.png");
+}
+
+span.corners-top {
+		background-color: transparent;
+    background-image: url("./images/corner_hg.png");
+}
+
+span.corners-top span {
+		background-color: transparent;
+    background-image: url("./images/corner_hd.png");
+}
+
+span.corners-bottom {
+		background-color: transparent;
+  background-image: url("./images/corner_bg.png");
+}
+
+span.corners-bottom span {
+		background-color: transparent;
+    background-image: url("./images/corner_bd.png");
 }
 
 .forumbg {
 	background-color: #12A3EB;
-	background-image: url("./images/bg_header.gif");
+	background-image: none;
 }
 
 .panel {
