@@ -63,8 +63,9 @@ hr {
 	background-image: url("./images/fond_black_transp.png");
 }
 .forumbg {
-	background-color: #12A3EB;
-	background-image: none;
+	background-color: transparent;
+	background-image: url("./images/fond_black_transp.png");
+	background-repeat: repeat;
 }
 
 .panel {
@@ -606,6 +607,7 @@ dd.profile-warnings {
 Colours and backgrounds for buttons.css
 -------------------------------------------------------------- */
 .button {
+
 	border-color: #C7C3BF;
 	background-color: #FFFFFF;
 	background-image: -moz-linear-gradient(top, #FFFFFF, #E9E9E9);
@@ -616,6 +618,7 @@ Colours and backgrounds for buttons.css
 	box-shadow: 0 0 0 1px #FFFFFF inset;
 	-webkit-box-shadow: 0 0 0 1px #FFFFFF inset;
 	color: #D31141;
+
 }
 
 .dropdown-select {
@@ -623,14 +626,16 @@ Colours and backgrounds for buttons.css
 }
 
 .button:hover, .dropdown-visible .dropdown-select, .nojs .dropdown-container:hover .dropdown-select {
-	border-color: #0a8ed0;
+
+	border-color: #0a8ed0; -->
 	background-image: -moz-linear-gradient(top, #E9E9E9, #FFFFFF);
 	background-image: -webkit-linear-gradient(top, #E9E9E9, #FFFFFF);
 	background-image: -o-linear-gradient(top, #E9E9E9, #FFFFFF);
 	background-image: linear-gradient(to bottom, #E9E9E9, #FFFFFF);
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#E9E9E9', EndColorStr='#FFFFFF')";
 	text-shadow: 1px 1px 0 #FFFFFF, -1px -1px 0 #FFFFFF, -1px -1px 0 rgba(188, 42, 77, 0.2);
-}
+
+}button
 
 .dropdown-select:after	{ border-color: #DADADA; }
 .dropdown-select:hover	{ border-color: #C7C3BF; }

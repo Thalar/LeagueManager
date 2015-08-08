@@ -254,6 +254,22 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
 	border-radius: 7px;
 }
 
+.forum-title {
+    background-image: url("./images/fond_cat.png");
+    background-repeat: no-repeat;
+    height: 80px;
+    text-align: left;
+    padding-left: 90px;
+    padding-top: 36px;
+    border-top: 0;
+    font-size: 26px;
+		margin-top: 10px;
+    margin-bottom: 10px;
+	}
+.forum-title a {
+    color: #FFFFFF;
+}
+
 .panel {
 	margin-bottom: 4px;
 	padding: 5px 10px;

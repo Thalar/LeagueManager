@@ -4,7 +4,7 @@
 .button {
 	cursor: pointer;
 	display: inline-block;
-	height: 18px;
+	height: 35px;
 	line-height: 18px;
 	font-size: 13px;
 	white-space: nowrap;
@@ -17,6 +17,10 @@
 	text-decoration: none !important;
 	outline-style: none !important;
 	vertical-align: bottom;
+}
+
+.buttons .button {
+	height: 35px;	
 }
 
 .dropdown-select {
@@ -249,3 +253,18 @@ button::-moz-focus-inner {
 	padding: 0;
 	border: 0
 }
+/*
+.button-new {
+  background-image: url("./images/new.png");
+  background-repeat: no-repeat;
+	width:115px;
+	height:25px;
+}
+
+.button-new:hover {
+background-image: url("./images/new_0.png");
+ background-repeat: no-repeat;
+ width:115px;
+ height:25px;
+}
+*/
