@@ -280,6 +280,7 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
 	margin-bottom: 4px;
 	padding: 5px 10px;
 	border-radius: 7px;
+	height:auto;
 }
 
 #postingbox {
@@ -314,6 +315,7 @@ ul.linklist {
 
 #cp-main .panel {
 	padding: 5px 10px;
+		height:auto;
 }
 
 ul.linklist > li {
@@ -386,7 +388,7 @@ ul.linklist li.responsive-menu a.responsive-menu-link:before {
 }
 
 li.responsive-menu.dropdown-right .dropdown {
-	left: -9px;
+
 }
 
 li.responsive-menu.dropdown-left .dropdown {
@@ -395,6 +397,21 @@ li.responsive-menu.dropdown-left .dropdown {
 
 ul.linklist .dropdown {
 	top: 22px;
+}
+
+.small-icon.responsive-menu.dropdown-container.dropdown-right.dropdown-down.visible.dropdown-visible{
+	height:300px;
+	width:200px
+}
+
+.small-icon.responsive-menu.dropdown-container.dropdown-right.dropdown-down{
+	height:300px;
+	width:200px
+}
+
+.responsive-menu-link.dropdown-trigger.dropdown-toggle{
+	height:300px;
+	width:200px
 }
 
 ul.linklist .dropdown-up .dropdown {
@@ -834,6 +851,36 @@ fieldset.fields1 dl.pmlist dd.recipients {
 	font-size: 11px;
 	margin: 4px 0;
 	color:#FFFFFF;
+	height:150px;
+}
+
+.action-bar.bottom {
+	height:300px;
+}
+
+.dropdown-container.dropdown-button-control.topic-tools.dropdown-right.dropdown-down.visible.dropdown-visible {
+		height:150px;
+		width: 250px;
+}
+
+.dropdown-container.dropdown-button-control.topic-tools.dropdown-right.dropdown-down{
+		height:150px;
+		width: 250px;
+}
+
+.dropdown-container.dropdown-button-control.topic-tools{
+		height:150px;
+		width: 250px;
+}
+
+.dropdown-container.dropdown-container-left.dropdown-up.dropdown-right.dropdown-button-control.visible.dropdown-visible {
+	height:300px;
+	width: 400px;
+}
+
+.dropdown-container.dropdown-container-left.dropdown-up.dropdown-right.dropdown-button-control {
+	height:300px;
+	width: 400px;
 }
 
 .forabg + .action-bar {
@@ -1333,7 +1380,8 @@ ul.linklist:after,
 
 #quick-links {
 	margin: 0 7px 0 0;
-	height:100px;
+	height:300px;
+	width: 220px;
 }
 
 #quick-links a.responsive-menu-link {
@@ -1350,7 +1398,7 @@ ul.linklist:after,
 	line-height: 16.5px;
 }
 #nav-main {
-	height:150px;
+	height:300px;
 }
 
 #username_logged_in {
@@ -1364,14 +1412,17 @@ ul.linklist:after,
 
 .header-profile.dropdown-container.dropdown-left.dropdown-down.visible.dropdown-visible {
 	height: 150px;
-	width: 320px;
+	width: 300px;
 }
 
 .header-profile.dropdown-container.dropdown-left.dropdown-down {
 	height: 150px;
-	width: 320px;
+	width: 300px;
 }
 
+ul.linklist.bulletin > li::before {
+    content: "";
+}
 .compact #quick-links a.responsive-menu-link {
 	font-size: 0;
 }
@@ -1385,7 +1436,7 @@ ul.linklist:after,
 }
 
 .dropdown-page-jump .dropdown {
-	top: 20px;
+
 }
 
 .dropdown-page-jump.dropdown-up .dropdown {

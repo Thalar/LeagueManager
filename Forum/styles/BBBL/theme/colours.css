@@ -39,7 +39,13 @@ a.arrow-left {
 }
 
 .panel.bg2 {
-	background-color: transparent;
+	background-color: #ECF1F3;
+	height: auto;
+	margin-bottom: 5px;
+}
+
+.panel.bg3 {
+	background-color:transparent;
 	height: auto;
 	margin-bottom: 5px;
 }
@@ -161,7 +167,7 @@ table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
 }
 
 .bg2 {
-	background-color: #D1D6DA;
+	background-color: #ECF1F3;
 }
 
 
@@ -170,7 +176,7 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 }
 
 .bg3	{
-	background-color: #cadceb;
+	background-color: transparent;
 }
 
 .ucprowbg {

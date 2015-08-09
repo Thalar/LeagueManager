@@ -152,6 +152,11 @@ ul.linklist.bulletin > li.small-icon:before {
 	color:#000000;
 }
 
+.dropdown .small-icon > a:hover {
+	display: block;
+	color:#FB7728;
+}
+
 /* Poster contact icons
 ----------------------------------------*/
 .contact-icons.dropdown-contents {

@@ -54,7 +54,7 @@ table {
 /*--- Text ---*/
 h1 { font-family: 'Play'; font-size: 40px; line-height: 50px; font-weight: 700;
 color: #ffffff; margin:0;padding: 0;}
-h2 { font-family: 'Play'; font-size: 20px; line-height: 24px; font-weight: 400; color:#ffffff; text-align: center; cursor: pointer; border-top: 1px solid #0191FF;padding-top: 5px;}
+h2 { font-family: 'Play'; font-size: 20px; line-height: 24px; font-weight: 400; color:#ffffff; text-align: center; cursor: pointer; padding-top: 5px;}
 h3 { font-family: 'Play'; font-size: 26px; line-height: 30px; font-weight: 700;}
 h4 { font-family: 'Play'; font-size: 36px; line-height: 46px; font-weight: 400;margin: 0 0 10px 0;color:#F68525;}
 h5 { font-family: 'Play'; font-size: 16px; line-height: 20px; font-weight: 400; text-align: left;color: #0191FF ; cursor: pointer; padding: 0 0 5px;}
@@ -84,7 +84,7 @@ p { font-family:'Hind'; font-size: 14px; line-height: 18px; text-align: justify;
 
 #main { position:relative; width:100vw; height:100vh;  z-index:0; display: table;}
 .scroll {overflow: auto;}
-.panel {height: calc(100vh - 68px); margin: 0px 0px 50px; overflow-y: auto;}
+.panel {margin: 0px 0px 50px; overflow-y: auto;}
 .panel.right > div {margin-left: 2.5vw !important;}
 .panel.right > article {margin-left: 2.5vw !important;}
 .panel.left > div {margin-right: 2.5vw !important;}
