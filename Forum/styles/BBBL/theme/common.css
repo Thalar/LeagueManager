@@ -318,7 +318,7 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
 ----------------------------------------*/
 .navbar ul.linklist {
 	padding: 2px 0;
-	height: 100px;
+	height: auto;
 }
 
 ul.linklist {
@@ -412,21 +412,6 @@ ul.linklist .dropdown {
 	top: 22px;
 }
 
-.small-icon.responsive-menu.dropdown-container.dropdown-right.dropdown-down.visible.dropdown-visible{
-	height:300px;
-	width:200px
-}
-
-.small-icon.responsive-menu.dropdown-container.dropdown-right.dropdown-down{
-	height:300px;
-	width:200px
-}
-
-.responsive-menu-link.dropdown-trigger.dropdown-toggle{
-	height:300px;
-	width:200px
-}
-
 ul.linklist .dropdown-up .dropdown {
 	bottom: 18px;
 	top: auto;
@@ -459,6 +444,7 @@ ul.linklist.bulletin > li.no-bulletin:before {
 .header-profile {
 	display: inline-block;
 	vertical-align: top;
+	right: 0px;
 }
 
 .header-avatar:hover {
@@ -467,7 +453,7 @@ ul.linklist.bulletin > li.no-bulletin:before {
 
 .header-avatar img {
 	margin-bottom: 2px;
-	max-height: 20px;
+	max-height: 60px;
 	vertical-align: middle;
 	width: auto;
 }
@@ -484,7 +470,7 @@ ul.linklist.bulletin > li.no-bulletin:before {
 /* Dropdown menu
 ----------------------------------------*/
 .dropdown-container {
-	position: relative;
+
 }
 
 .dropdown-container-right {
@@ -871,29 +857,8 @@ fieldset.fields1 dl.pmlist dd.recipients {
 	height:300px;
 }
 
-.dropdown-container.dropdown-button-control.topic-tools.dropdown-right.dropdown-down.visible.dropdown-visible {
-		height:150px;
-		width: 250px;
-}
-
-.dropdown-container.dropdown-button-control.topic-tools.dropdown-right.dropdown-down{
-		height:150px;
-		width: 250px;
-}
-
-.dropdown-container.dropdown-button-control.topic-tools{
-		height:150px;
-		width: 250px;
-}
-
-.dropdown-container.dropdown-container-left.dropdown-up.dropdown-right.dropdown-button-control.visible.dropdown-visible {
-	height:300px;
-	width: 400px;
-}
-
-.dropdown-container.dropdown-container-left.dropdown-up.dropdown-right.dropdown-button-control {
-	height:300px;
-	width: 400px;
+.action-bar.compact {
+height:auto;
 }
 
 .forabg + .action-bar {
@@ -1393,8 +1358,8 @@ ul.linklist:after,
 
 #quick-links {
 	margin: 0 7px 0 0;
-	height:300px;
-	width: 220px;
+	position:absolute;
+	left: 30px;
 }
 
 #quick-links a.responsive-menu-link {
@@ -1402,35 +1367,53 @@ ul.linklist:after,
 	font-size: inherit;
 	line-height: inherit;
 	margin: 0;
-	width: auto;
-		height:100px
+	width: 100px;
+  height:30px
 }
 
 #quick-links a.responsive-menu-link:before {
 	font-size: 16px;
 	line-height: 16.5px;
 }
+.small-icon.responsive-menu.dropdown-container {
+	height: 30px;
+	width: 100px;
+}
+
+.small-icon.responsive-menu.dropdown-container.dropdown-right.dropdown-down {
+	height: 30px;
+	width: 100px;
+}
+
+.small-icon.responsive-menu.dropdown-container.dropdown-right.dropdown-down.visible.dropdown-visible {
+	height: 300px;
+	width: 220px;
+}
+.header-profile.dropdown-container {
+	height: 60px;
+	width: 130px;
+}
+.header-profile.dropdown-container.dropdown-left.dropdown-down {
+	height: 60px;
+	width: 130px;
+}
+.header-profile.dropdown-container.dropdown-left.dropdown-down.visible.dropdown-visible {
+	height: 150px;
+	width: 280px;
+}
 #nav-main {
-	height:300px;
+	height:auto;
+	padding-right:150px;
+	padding-left:110px;
 }
 
 #username_logged_in {
-	height:150px;
-	width: 320px;
+	position: absolute;
+  right: 50px;
 }
 
 #nav-breadcrumbs {
 	height:auto;
-}
-
-.header-profile.dropdown-container.dropdown-left.dropdown-down.visible.dropdown-visible {
-	height: 150px;
-	width: 300px;
-}
-
-.header-profile.dropdown-container.dropdown-left.dropdown-down {
-	height: 150px;
-	width: 300px;
 }
 
 ul.linklist.bulletin > li::before {

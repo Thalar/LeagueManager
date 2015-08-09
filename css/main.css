@@ -121,7 +121,7 @@ article.random > h6 { color:#F68525 !important; }
 
 .tleft {text-align: left !important;}
 
-#bottom { width:100vw; height:168px; position:fixed; top:600px; left: 0px; }
+#bottom { height:168px; position:fixed; top:600px; left: 0px; }
 
 
 #container { width:100vw; position:fixed; left:0; top:0; z-index:0;}
