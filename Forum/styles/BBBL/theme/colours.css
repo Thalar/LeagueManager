@@ -30,6 +30,43 @@ a.arrow-left {
 		background-color: transparent;
 }
 
+#bottom {
+	top:650px;
+}
+
+.panel .inner h3 {
+	color:#000000;
+}
+
+.panel.bg2 {
+	background-color: transparent;
+	height: auto;
+	margin-bottom: 5px;
+}
+
+#options-panel {
+	height:auto;
+	background-color: #ECF1F3;
+}
+
+#attach-panel {
+	height:auto;
+	background-color: #ECF1F3;
+}
+
+#attach-panel p {
+	color:#000000;
+}
+
+#poll-panel {
+	height:auto;
+	background-color: #ECF1F3;
+}
+
+#poll-panel p {
+	color:#000000;
+}
+
 html, body {
 	color: #536482;
 	background-color: #F5F7FA;
@@ -650,8 +687,8 @@ Colours and backgrounds for buttons.css
 	background-image: -o-linear-gradient(top, #FFFFFF, #E9E9E9);
 	background-image: linear-gradient(to bottom, #FFFFFF, #E9E9E9);
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFFFFF', EndColorStr='#E9E9E9')";
-	box-shadow: 0 0 0 1px #FFFFFF inset;
-	-webkit-box-shadow: 0 0 0 1px #FFFFFF inset;
+	box-shadow: 0 0 0 1px #000000 inset;
+	-webkit-box-shadow: 0 0 0 1px #000000 inset;
 	color: #D31141;
 
 }
@@ -671,7 +708,7 @@ Colours and backgrounds for buttons.css
 	text-shadow: 1px 1px 0 #FFFFFF, -1px -1px 0 #FFFFFF, -1px -1px 0 rgba(188, 42, 77, 0.2);
 	color:#000000;
 
-}button
+}
 
 .dropdown-select:after	{ border-color: #DADADA; }
 .dropdown-select:hover	{ border-color: #C7C3BF; }
@@ -811,13 +848,13 @@ ul.cplist {
 /* CP tabbed menu
 ----------------------------------------*/
 #tabs .tab > a {
-	background: #BACCD9;
+background: #ECF1F3;
 	color: #536482;
 }
 
 #tabs .tab > a:hover {
 	background: #DDEDFB;
-	color: #D31141;
+color: #FB7728;
 }
 
 #tabs .activetab > a,
@@ -832,11 +869,11 @@ ul.cplist {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E2F2FF', endColorstr='#CADCEB', GradientType=0 );
 	border-color: #CADCEB;
 	box-shadow: 0 1px 1px #F2F9FF inset;
-	color: #333333;
+color: #000000;
 }
 
 #tabs .activetab > a:hover {
-	color: #000000;
+color: #0000000;
 }
 
 /* Mini tabbed menu used in MCP

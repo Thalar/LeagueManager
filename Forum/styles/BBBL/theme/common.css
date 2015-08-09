@@ -185,6 +185,7 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
 	min-width: 625px;
 	padding: 15px;
 	overflow: auto;
+	height: calc(100vh - 68px);
 }
 
 @media only screen and (max-width: 1220px), only screen and (max-device-width: 1220px) {
@@ -281,6 +282,11 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
 	border-radius: 7px;
 }
 
+#postingbox {
+		height:auto;
+	  margin-bottom: 5px;
+}
+
 .post {
 	padding: 5px 10px;
 	margin-bottom: 4px;
@@ -298,6 +304,7 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
 ----------------------------------------*/
 .navbar ul.linklist {
 	padding: 2px 0;
+	height: 100px;
 }
 
 ul.linklist {
@@ -1088,6 +1095,57 @@ form > p.post-notice strong {
 	clear: both;
 }
 
+.stat-block a {
+	color:#FFFFFF;
+}
+
+.dropdown-trigger.button.icon-button.modtools-icon.dropdown-select.dropdown-toggle {
+	background-color:#BF0000;
+}
+
+.dropdown-trigger.button.dropdown-select.dropdown-toggle{
+	background-color:#C0C0C0;
+}
+
+.button.icon-button.tools-icon.dropdown-trigger.dropdown-select.dropdown-toggle{
+  background-color:#C0C0C0;
+}
+
+.button.icon-button.search-adv-icon{
+  background-color:#C0C0C0;
+}
+
+.button.icon-button.search-icon{
+	background-color:#C0C0C0;
+}
+
+.button.icon-button.edit-icon{
+	background-color:#C0C0C0;
+}
+
+.button.icon-button.delete-icon{
+		background-color:#C0C0C0;
+}
+
+.button.icon-button.report-icon{
+		background-color:#C0C0C0;
+}
+
+.button.icon-button.info-icon{
+		background-color:#C0C0C0;
+}
+
+.button.icon-button.quote-icon{
+		background-color:#C0C0C0;
+}
+.button.icon-button.search-icon {
+			background-color:#C0C0C0;
+}
+
+.button.icon-button.search-adv-icon{
+			background-color:#C0C0C0;
+}
+
 #top {
 	position: absolute;
 	top: -20px;
@@ -1275,6 +1333,7 @@ ul.linklist:after,
 
 #quick-links {
 	margin: 0 7px 0 0;
+	height:100px;
 }
 
 #quick-links a.responsive-menu-link {
@@ -1283,11 +1342,34 @@ ul.linklist:after,
 	line-height: inherit;
 	margin: 0;
 	width: auto;
+		height:100px
 }
 
 #quick-links a.responsive-menu-link:before {
 	font-size: 16px;
 	line-height: 16.5px;
+}
+#nav-main {
+	height:150px;
+}
+
+#username_logged_in {
+	height:150px;
+	width: 320px;
+}
+
+#nav-breadcrumbs {
+	height:auto;
+}
+
+.header-profile.dropdown-container.dropdown-left.dropdown-down.visible.dropdown-visible {
+	height: 150px;
+	width: 320px;
+}
+
+.header-profile.dropdown-container.dropdown-left.dropdown-down {
+	height: 150px;
+	width: 320px;
 }
 
 .compact #quick-links a.responsive-menu-link {

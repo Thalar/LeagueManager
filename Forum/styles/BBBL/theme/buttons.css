@@ -1,9 +1,5 @@
 /* Button Styles
 ---------------------------------------- */
-#quickmod {
-	background-color:#000000;
-}
-
 
 .button {
 	cursor: pointer;
@@ -27,7 +23,7 @@
 	background-image: url("./images/fond_button.png");
 	background-repeat: no-repeat;
 	height: 35px;
-	width: 156px;
+	width: 180px;
 	background-color: transparent;
 	border: 0;
 	box-shadow: none;
@@ -40,7 +36,7 @@
 	background-image: url("./images/fond_button_over.png");
 	background-repeat: no-repeat;
 	height: 35px;
-	width: 156px;
+	width: 180px;
 	background-color: transparent;
 	border: 0;
 	box-shadow: none;
@@ -153,6 +149,7 @@ ul.linklist.bulletin > li.small-icon:before {
 
 .dropdown .small-icon > a {
 	display: block;
+	color:#000000;
 }
 
 /* Poster contact icons
@@ -280,18 +277,3 @@ button::-moz-focus-inner {
 	padding: 0;
 	border: 0
 }
-/*
-.button-new {
-  background-image: url("./images/new.png");
-  background-repeat: no-repeat;
-	width:115px;
-	height:25px;
-}
-
-.button-new:hover {
-background-image: url("./images/new_0.png");
- background-repeat: no-repeat;
- width:115px;
- height:25px;
-}
-*/
