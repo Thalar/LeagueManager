@@ -15,6 +15,7 @@ a:hover	{  }
 	font-weight: bold;
 	display: inline !important;
 	padding: 0 !important;
+	vertical-align: top;
 }
 
 /* Links on gradient backgrounds */
