@@ -850,11 +850,6 @@ fieldset.fields1 dl.pmlist dd.recipients {
 	font-size: 11px;
 	margin: 4px 0;
 	color:#FFFFFF;
-	height:150px;
-}
-
-.action-bar.bottom {
-	height:300px;
 }
 
 .action-bar.compact {
@@ -1358,7 +1353,7 @@ ul.linklist:after,
 
 #quick-links {
 	margin: 0 7px 0 0;
-	position:absolute;
+	position:relative;
 	left: 30px;
 }
 
@@ -1375,41 +1370,71 @@ ul.linklist:after,
 	font-size: 16px;
 	line-height: 16.5px;
 }
+
+.dropdown-container.dropdown-container-left.dropdown-up.dropdown-right.dropdown-button-control {
+	position: relative;
+	width: 400px;
+	height: 35px;
+}
+.dropdown-container.dropdown-container-left.dropdown-up.dropdown-right.dropdown-button-control.visible.dropdown-visible {
+	position: relative;
+	width: 400px;
+	height: 330px;
+}
+
 .small-icon.responsive-menu.dropdown-container {
 	height: 30px;
-	width: 100px;
+	width: 220px;
 }
-
 .small-icon.responsive-menu.dropdown-container.dropdown-right.dropdown-down {
 	height: 30px;
-	width: 100px;
+	width: 220px;
 }
-
 .small-icon.responsive-menu.dropdown-container.dropdown-right.dropdown-down.visible.dropdown-visible {
 	height: 300px;
 	width: 220px;
 }
+
 .header-profile.dropdown-container {
 	height: 60px;
-	width: 130px;
+	width: 280px;
 }
 .header-profile.dropdown-container.dropdown-left.dropdown-down {
 	height: 60px;
-	width: 130px;
+	width: 280px;
 }
 .header-profile.dropdown-container.dropdown-left.dropdown-down.visible.dropdown-visible {
 	height: 150px;
 	width: 280px;
 }
+
+.button.icon-button.tools-icon.dropdown-trigger.dropdown-select.dropdown-toggle {
+	position: relative;
+	width: 220px;
+	height: 35px;
+}
+.dropdown-container.dropdown-button-control.topic-tools.dropdown-right.dropdown-down {
+	position: relative;
+	width: 220px;
+	height: 35px;
+}
+.dropdown-container.dropdown-button-control.topic-tools.dropdown-right.dropdown-down.visible.dropdown-visible {
+	position: relative;
+	width: 220px;
+	height: 140px;
+}
+
+
+#topic-search{
+	margin-left:20px;
+}
+
 #nav-main {
 	height:auto;
-	padding-right:150px;
-	padding-left:110px;
 }
 
 #username_logged_in {
-	position: absolute;
-  right: 50px;
+	position: relative;
 }
 
 #nav-breadcrumbs {

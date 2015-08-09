@@ -28,6 +28,7 @@ a.arrow-left {
 
 #quickmod {
 		background-color: transparent;
+		padding-left: 20px;
 }
 
 #bottom {
@@ -497,9 +498,11 @@ dl.faq dt {
 ----------------------------------------*/
 /* Quote block */
 blockquote {
-	background-color: #EBEADD;
+	background-color: #BAB8B8;
 	background-image: url("./images/quote.gif");
 	border-color:#DBDBCE;
+	border-radius: 5px;
+	color:#000000;
 }
 
 .rtl blockquote {
@@ -508,12 +511,12 @@ blockquote {
 
 blockquote blockquote {
 	/* Nested quotes */
-	background-color:#EFEED9;
+	background-color:#938F8F;
 }
 
 blockquote blockquote blockquote {
 	/* Nested quotes */
-	background-color: #EBEADD;
+	background-color: #878787;
 }
 
 /* Code block */
