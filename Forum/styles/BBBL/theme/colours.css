@@ -167,7 +167,7 @@ table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
 }
 
 .bg2 {
-	background-color: #ECF1F3;
+	background-color: #D1D3D4;
 }
 
 
@@ -661,11 +661,9 @@ fieldset.polls dd div {
 ----------------------------------------*/
 .postprofile {
 	color: #666666;
-	border-color: #FFFFFF;
 }
 
 .pm .postprofile {
-	border-color: #DDDDDD;
 }
 
 .postprofile strong {

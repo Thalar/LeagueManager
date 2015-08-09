@@ -82,6 +82,19 @@ h2 {
 
 .topic-title {
 	border:0;
+  background-image: url("./images/fond_topic.png");
+	background-repeat: no-repeat;
+  height: 100px;
+  background-position: center center;
+  padding-top: 40px;
+}
+
+.topic-title a {
+	color:#FFFFFF;
+}
+
+.topic-title a:hover {
+  color: #FB7728;
 }
 
 h2.solo {
