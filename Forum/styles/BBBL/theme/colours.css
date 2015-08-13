@@ -43,17 +43,23 @@ a.arrow-left {
 	background-color: #ECF1F3;
 	height: auto;
 	margin-bottom: 5px;
+	margin-right: 10px;
+	box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.9);
 }
 
 .panel.bg3 {
 	background-color:transparent;
 	height: auto;
 	margin-bottom: 5px;
+	margin-right: 10px;
+	box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.9);
 }
 
 #options-panel {
 	height:auto;
 	background-color: #ECF1F3;
+	margin-right: 10px;
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.9);
 }
 
 #attach-panel {
@@ -120,8 +126,6 @@ hr {
 
 .navbar {
 	background-color: transparent;
-	background-image: url("./images/fond_black_transp.png");
-	border-radius:10px;
 	color:#E6EAED;
 }
 
@@ -161,6 +165,8 @@ hr {
 
 .bg1 {
 	background-color: #E6EAED;
+	box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.9);
+	margin-right: 10px;
 }
 
 table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
@@ -169,6 +175,8 @@ table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
 
 .bg2 {
 	background-color: #D1D3D4;
+	box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.9);
+	margin-right: 10px;
 }
 
 
