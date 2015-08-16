@@ -48,7 +48,7 @@ a.arrow-left {
 }
 
 .panel.bg3 {
-	background-color:transparent;
+	background-color:#CADCEB;
 	height: auto;
 	margin-bottom: 5px;
 	margin-right: 10px;
@@ -57,7 +57,7 @@ a.arrow-left {
 
 #options-panel {
 	height:auto;
-	background-color: #ECF1F3;
+	background-color: ##CADCEB;
 	margin-right: 10px;
   box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.9);
 }
